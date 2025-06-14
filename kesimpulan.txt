@@ -1,0 +1,25 @@
+1. Erosi
+Erosi adalah proses penting dalam pemrosesan morfologi citra yang digunakan untuk mengecilkan objek terang, menghapus noise, dan memisahkan objek yang bersinggungan. Penggunaannya harus disesuaikan dengan ukuran kernel agar hasilnya optimal tanpa merusak bentuk objek utama.
+
+
+2. Dilasi 
+ Dilasi adalah operasi yang sangat berguna dalam pembersihan, perbaikan, dan penegasan bentuk objek dalam citra        digital, namun harus digunakan dengan tepat untuk menghindari hasil yang berlebihan.
+
+3. Opening
+Opening adalah kombinasi dari dua operasi morfologi dasar, yaitu erosi diikuti dengan dilasi. Opening digunakan untuk:
+
+Menghilangkan noise kecil berwarna putih,
+
+Memisahkan objek yang menempel halus,
+
+Melunakkan kontur objek tanpa mengubah bentuk utama secara drastis.
+
+4. Closing
+Closing adalah gabungan dari dua operasi morfologi: dilasi yang diikuti oleh erosi. Tujuan utamanya adalah untuk:
+
+Menutup lubang kecil atau celah gelap di dalam objek terang,
+
+Menyambungkan bagian-bagian objek yang terputus kecil,
+
+Melunakkan batas luar objek, sambil tetap mempertahankan ukuran aslinya.
+
